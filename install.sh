@@ -14,9 +14,7 @@ cp -R cfe-3.7.0.src/* clang/
 
 rm -rf llvm-3.7.0.src cfe-3.7.0.src
 
-git clone https://github.com/apple/swift
-
 cd swift
 utils/build-script
 
-echo "Done!"
+echo "Done!
